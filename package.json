@@ -1,0 +1,17 @@
+{
+    "name": "test",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint .",
+        "solhint": "./node_modules/.bin/solhint \"contracts/**/*.sol\""
+    },
+    "dependencies": {
+        "openzeppelin-solidity": "2.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "prettier": "^1.18.2",
+        "prettier-plugin-solidity": "^1.0.0-alpha.34",
+        "solhint": "^2.3.0",
+        "solhint-plugin-prettier": "0.0.3"
+    }
+}
